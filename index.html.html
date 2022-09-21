@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Paulina Sikora - Portfolio</title>
+	
+	<link rel="stylesheet" href="2main.css" type="text/css">
+</head>
+
+    
+<body>
+    
+<!-- ================================= menu burgerek -->
+        <div class="menu">
+            <img src="menu.png" alt="menu" onclick="myFunction()" class="dropbtn">
+            <div id="myDropdown" class="menu-content">
+                <a href="2Start.html">Start</a>
+                <a href="2Start.html#C2">O mnie</a>
+                <a href="2Start.html#C3">Portfolio</a>
+                <a href="2Start.html#C4">Kontakt</a>
+            </div>
+    
+    <script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("menu-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+        </div>
+    <!-- ========================menu burgerek -->
+
+    <!-- pierwsza strona -->
+
+     <div class="wstep" id="C1">
+         
+			<div class="logo">
+				<img class="logo-start" src="galeria/LOGO-02-duze.png" alt="logo">
+			</div>
+			<div class="text_imie">
+			<p>PAULINA SIKORA</p>
+			</div>
+            <div class="box_projektant">
+			<div class="text_projektant">
+			PROJEKTANT GRAFICZNY
+			</div>
+            </div>
+		
+    </div>
+   <!-- -------------------wstep i opis -->
+    <div class="absoluteWitaj" id="C2">
+    <div class="dszaryprostokat">
+				<div class="dszary_text">
+				<h1>Witaj,</h1>
+
+					<p>Nazywam się Paulina Sikora, jestem ze Śląska. 
+					Sztuką interesowałam się od dziecka, ale moją pasją stała się w wieku 15 lat. 
+					Dlatego jako szkołę średnią wybrałam Liceum Plastyczne w Bielsku-Białej, które
+					ukończyłam w roku 2019, zyskując tytuł Plastyka o specjalizacji Projektowanie Graficzne. 
+					Aktualnie studiuje w Wyższej Szkole Technologi Informatycznych w Katowicach na kierunku Grafika.
+                    Gdy zaczynałam swoją przygodę z grafiką, jedna z nauczycielek powiedziała mi,
+					że prawdziwym grafikiem jest się wtedy, gdy potrafi się to zrobić ręcznie.
+					Dlatego prace, które tworzę wykonywane są ręcznie, technikami takimi jak:
+					Ołówek, węgiel, farby aqwarelowe i akrylowe, tusz lawowany, 
+					niektóre z nich podlegają dalszej obróbce w programach takich jak:
+                    <p>    
+					<img class="icong" src="galeria/ps.png" alt="photoshop" >
+					<img class="icong" src="galeria/id.png" alt="indesign" >
+					<img class="icong" src="galeria/ai.png" alt="illustrator" >
+                    </p>
+				</div>
+			</div>
+    </div>
+        <!-- ----------------galeria prac -->
+    <div class="galeria" id="C3">
+        <div class="galeriaPasek">
+			         Galeria prac
+		</div>
+        <div class="niewidzialnynapis"> Przytrzymaj, aby zobaczyć opis <p> Naciśnij, aby przejść do galerii</p>
+        </div>
+        <div class="kolumna">
+            <div class="kafelek" >
+                <img src="Prace/Kafelek%20folderu%20krajobrazy.jpg" class="image" >
+                <div class="nakladka" >
+                <div class="opis" >
+                    <a href="galeria-krajobrazy.html">Kliknij, aby przejść do galerii 
+                        <p>Opis galerii krajobrazy</p></a>
+                    </div>
+            </div>
+            </div> 
+            <div class="kafelek" >
+                <img src="Prace/Kafelek%20folderu%20martwa%20natura.jpg" class="image" >
+                <div class="nakladka" >
+                <div class="opis" >
+                    <a href="galeria-martwanatura.html">Kliknij, aby przejść do galerii 
+                        <p>Opis galerii martwa natura</p></a>
+                    </div>
+            </div>
+            </div> 
+            <div class="kafelek" >
+                <img src="Prace/Kafelek%20folderu%20krajobrazy.jpg" class="image" >
+                <div class="nakladka" >
+                <div class="opis" >
+                    <a href="galeria-wektory.html">Kliknij, aby przejść do galerii 
+                        <p>Opis galerii Wektory</p></a>
+                    </div>
+            </div>
+            </div> 
+            <div class="kafelek" >
+                <img src="Prace/Kafelek%20folderu%20krajobrazy.jpg" class="image" >
+                <div class="nakladka" >
+                <div class="opis" >
+                    <a href="galeria-okladki.html">Kliknij, aby przejść do galerii 
+                        <p>Opis galerii okładki</p></a>
+                    </div>
+            </div>
+            </div> 
+          
+        </div>
+        <div class="kolumna">
+            <div class="kafelek" >
+                <img src="Prace/Kafelek%20folderu%20portrety.jpg" class="image" >
+                <div class="nakladka" >
+                <div class="opis" >
+                    <a href="galeria-portrety.html">Kliknij, aby przejść do galerii 
+                        <p>Opis galerii portrety</p></a>
+                    </div>
+            </div>
+            </div> 
+            <div class="kafelek" >
+                <img src="Prace/Kafelek%20folderu%20praca%20dyplomowa%20plastyk.jpg" class="image" >
+                <div class="nakladka" >
+                <div class="opis" >
+                    <a href="galeria-pracadyplomowa.html">Kliknij, aby przejść do galerii 
+                        <p>Praca Dyplomowa 2018/2019, Liceum Plastyczne ZSP w Bielsku-Białej.</p></a>
+                    </div>
+            </div>
+            </div> 
+            <div class="kafelek" >
+                <img src="Prace/Kafelek%20folderu%20krajobrazy.jpg" class="image" >
+                <div class="nakladka" >
+                <div class="opis" >
+                    <a href="galeria-fotografiaReklamowa.html">Kliknij, aby przejść do galerii 
+                        <p>Opis galerii fotografia reklamowa</p></a>
+                    </div>
+            </div>
+            </div> 
+            <div class="kafelek" >
+                <img src="Prace/Kafelek%20folderu%20krajobrazy.jpg" class="image" >
+                <div class="nakladka" >
+                <div class="opis" >
+                    <a href="galeria-krajobrazy.html">Kliknij, aby przejść do galerii 
+                        <p>Opis galerii krajobrazy</p></a>
+                    </div>
+            </div>
+            </div> 
+         
+          
+            </div>
+     </div>
+  <!-- ---------- kontakt ------ -->             
+        
+        
+    <div class="absoluteKontakt" id="C4">
+            <div class="dszaryprostokatkontakt">
+    		<div class="kontakttext"> 
+				<p>Paulina Sikora</p>
+                <p>Tel. 518 939 086</p>
+                <p>E-mail: projektantka4@gmail.com</p>
+            </div>
+			</div>		
+    </div>
+        
+        
+        
+        
+       
+        
+    
+      
+</body>
+
+</html>
